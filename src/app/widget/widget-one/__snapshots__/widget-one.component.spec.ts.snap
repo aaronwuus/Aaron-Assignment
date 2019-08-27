@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetOneComponent should create 1`] = `
+WidgetOneComponent {
+  "widgetService": WidgetService {
+    "subject": BehaviorSubject {
+      "_isScalar": false,
+      "_value": "",
+      "closed": false,
+      "hasError": false,
+      "isStopped": false,
+      "observers": Array [],
+      "thrownError": null,
+    },
+  },
+}
+`;

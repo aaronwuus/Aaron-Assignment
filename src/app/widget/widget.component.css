@@ -1,0 +1,19 @@
+.wrap {
+    text-align: center; 
+    margin: auto;
+    position: relative;
+    height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display:table;
+    top:50%;
+    transform:translateY(50%);
+}
+.row-wrap {
+    text-align: center; 
+    position: relative;
+    left:50%;
+    transform:translateX(-25%); 
+}

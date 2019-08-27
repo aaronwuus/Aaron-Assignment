@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+    padding-top: 0px;
+}
+
+* {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
+th {
+    text-align: center;
+}
+.table tbody tr td {
+    vertical-align: middle;
+}

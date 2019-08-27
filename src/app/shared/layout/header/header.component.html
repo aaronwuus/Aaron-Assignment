@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom" *ngIf="navbarService.visible">
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0 left-nav">
+        <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item">
+                <a [routerLink]="[ '/browse', current ]" routerLinkActive="active" >Problem One</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+            <h1 class="title">Assignment</h1>
+    </div>
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2 right-nav">
+        <ul class="navbar-nav mr-auto text-center">
+            <li class="nav-item">
+                <a [routerLink]="[ '/widget' ]" routerLinkActive="active">Problem Two</a>
+            </li>
+        </ul>
+    </div>
+</nav>

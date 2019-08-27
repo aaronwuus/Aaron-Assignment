@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should render title in a h1 tag 1`] = `
+<app-root
+  title={[Function String]}
+>
+  <app-header>
+    
+  </app-header><div
+    class="container-fluid"
+    style="padding-left: 0px;padding-right: 0px;"
+  >
+    <router-outlet />
+  </div>
+</app-root>
+`;
